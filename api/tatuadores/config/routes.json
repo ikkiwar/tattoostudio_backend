@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tatuadores",
+      "handler": "tatuadores.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tatuadores/count",
+      "handler": "tatuadores.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tatuadores/:id",
+      "handler": "tatuadores.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tatuadores",
+      "handler": "tatuadores.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tatuadores/:id",
+      "handler": "tatuadores.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tatuadores/:id",
+      "handler": "tatuadores.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
